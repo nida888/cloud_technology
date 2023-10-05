@@ -1,0 +1,13 @@
+@media only screen and (max-width:1000px){
+    .card2{width: 18.5%;}
+}
+@media only screen and (max-width:800px){
+    .card2{width: 17.5%;}
+    .cardMsg2{width: 5%;
+        margin: 1% auto;    
+    }
+    .links{width: 33.33%;
+        padding: 1em 0em;
+        text-align: center;
+    }
+}
