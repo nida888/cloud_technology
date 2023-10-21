@@ -1,0 +1,63 @@
+/* Default styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+header {
+    background-color: #ff69b4;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Additional styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
+}
+
+/* Additional styles for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    body {
+        background-color: plum;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
