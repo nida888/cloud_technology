@@ -1,0 +1,52 @@
+/* Navbar */
+.navbar {
+    padding: 15px;
+}
+
+/* Carousel */
+#slideshow {
+    width: 100%;
+    margin: auto;
+}
+
+/* Album Cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #01458a;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 780px) {
+    /* Navbar */
+    .navbar {
+        padding: 20px;
+    }
+
+    /* Album Cards */
+    .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 970px) {
+    /* Navbar */
+    .navbar {
+        padding: 25px;
+    }
+
+    /* Album Cards */
+    .card {
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px;
+    }
+}
